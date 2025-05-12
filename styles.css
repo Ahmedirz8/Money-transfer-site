@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  min-width: 600px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #eaeaea;
+}
+
+td:last-child {
+  color: green;
+  font-weight: bold;
+}
+
+/* Responsive text size */
+@media (max-width: 600px) {
+  th, td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+}
